@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+    
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.logo{
+ width: 150px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.menu ul li a{
+    color: black;
+	font-size : 20px;
+	-webkit-text-stroke: 0.5px black;
+    text-decoration: none;
+}
+.menu ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #05b33f;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+
+
+
+
+body{
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+.backgroundimage{
+
+ background-image: url("pictures/group.jpg");
+   height: 100%;
+   width:100%;
+   
+   margin-top: 0%;
+   
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+        
+
+
+
+
+
+h1{
+  font-family: 'Poppins';
+  text-align: center;
+  color: black;
+  font-size: 45px;
+}
+.container {
+  
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 25%;
+}
+.image1 {
+  
+  width: 250px;
+  height: 400px;
+  opacity: 1;
+  
+}
+.image2 {
+  display: block;
+  width: 300px;
+  height: 400px;
+  margin-left:500px;
+  
+}
+.image3 {
+
+ 
+  width: 300px;
+  height: 450px;
+  	
+}
+
+.image4 {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left:500px;
+}	
+	
+
+.overlay2 {
+  position: absolute;
+  top: 20%;
+  
+  
+  
+  overflow: hidden;
+  height: 10%;
+  width: 400px;
+  
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #dff7f7;
+}
+.overlay1 {
+  position: absolute;
+  
+  top: 20%;
+  left:450px;
+  
+  
+  height: 50%;
+  width: 400px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #dff7f7;
+}
+.container:hover .overlay2 {
+  height:50%;
+  
+  opacity: 1;
+}
+.container:hover .overlay1 {
+  width:100%;
+  opacity: 1;
+}
+
+.text {
+  overflow: hidden;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+          footer {
+              position: relative;              
+              bottom: 0;
+			  left: 0;
+			  right: 0;
+			  margin-bottom: 0%;
+              height:200px;
+              background-color: orange;
+              
+        }
+	
+
+		footer a{
+		   color:white; 
+		}
+		footer  a:hover{
+		     color: grey;
+		}
+
+.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+.copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px; 
+  margin-bottom:0;
+}
+.social {
+   text-align:center;
+}
+.pageEditor {
+  text-align:center;
+}

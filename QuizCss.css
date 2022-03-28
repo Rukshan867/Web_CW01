@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.logo{
+    width: 150px;
+
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+	font-size : 20px;
+	-webkit-text-stroke: 1px white;
+}
+.menu ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #1ac6ff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+		
+	    
+
+.backgroundimage{
+	background-image: url("pictures/nba3.jpg") ,
+			          url("pictures/rugby2.jpg");
+    background-position: top, bottom;
+    background-size: 1700px 1100px, 2000px 1200px;			  
+	background-repeat: no-repeat, no-repeat;
+			  
+			  
+}
+form {
+	font-family: 'Quicksand', sans-serif;
+	border: 2px solid black;
+    text-align: center;
+	width: 500px;
+	margin-left:500px;
+			  
+}
+		
+h1 {
+	text-align: center;
+	color: rgb(205,230,236);
+	font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+	font-size:70px;
+	margin-top:100px;
+}
+
+.sumbitBtn {
+			
+	color: white;
+	width:200px;
+	height:50px;
+	border-radius: 30px;
+	font-size: 20px;
+						
+	margin-top: 30px;
+	cursor: pointer;
+    margin-bottom: 30px;
+			
+	background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+		
+.sumbitBtn:hover {
+    background: linear-gradient(to bottom, #3acfd5 0%, #0aa35e 100%);
+}
+		
+#endDisplay {
+	display: none;
+	backdrop-filter: blur(5px);
+	background-color: rgb(20,38,52);
+	border: 3px solid black;
+	border-radius: 50px;
+	width: 800px;
+	margin-left:350px;
+	margin-top:50px;
+	color: white;			
+	font-size:20px;
+	padding: 25px;
+	text-align: center;
+			
+}
+		
+#quizForm{
+	background-color:#242526;
+	display: none;
+	color:white;
+}
+		
+		
+		
+		
+.btn-hover {
+		      
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+	margin-left: 650px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+footer {
+    position: relative;              
+    bottom: 0;
+	left: 0;
+	right: 0;
+	margin-bottom: 0%;
+    height:200px;
+    background-color: orange;
+              
+}
+	
+	    
+footer a{
+	color:white; 
+}
+footer a:hover{
+    color: grey;
+}
+
+
+        .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+.copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px; 
+  margin-bottom:0;
+}
+.social {
+   text-align:center;
+}
+.pageEditor {
+  text-align:center;
+}

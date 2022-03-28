@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8">
+	
+	<title>Quiz</title>
+	
+	<link rel="stylesheet" type="text/css" href="QuizCss.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	
+	<div class="backgroundimage">
+	<!-- Navigation bar -->
+                <div class="menu">
+                    <img src="pictures/logo.png" class="logo" alt="PageLogo">
+
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="QuizPage.html">Quiz</a></li>
+                        <li><a href="">Thumbnail</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="personal.html">Student Details</a></li>
+                        <li><a href="">Sitemap</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+	
+	<!--Form-->
+	 
+	<h1>Quiz</h1>
+	
+	<input type="button" value="Start!" class="btn-hover color-1" onclick="start (); myFunction(); timer(); ">
+	
+	<div id="backColor">
+	<form name="quiz" id="quizForm">
+		<p>1.The Olympics are held every how many years? </p><br>
+			<p><input type="radio" name="q1" id="q1a" value=1><label for="q1a">A. 5 Years</label></p>
+			<p><input type="radio" name="q1" id="q1b" value=2><label for="q1b">B. 2 Years</label></p>
+			<p><input type="radio" name="q1" id="q1c" value=3><label for="q1c">C. 4 Years</label></p> 
+			<p><input type="radio" name="q1" id="q1d" value=4><label for="q1d">D. 8 Years</label></p>
+	
+	    <br>
+		<p>2.How old was Mike Tyson when he became the undisputed heavyweight champion?</p><br>
+			<p><input type="radio" name="q2" id="q2a" value=1><label for="q2a">A. 20 Years</label></p>
+			<p><input type="radio" name="q2" id="q2b" value=2><label for="q2b">B. 19 Years</label></p>
+			<p><input type="radio" name="q2" id="q2c" value=3><label for="q2c">C. 23 Years</label></p>
+			<p><input type="radio" name="q2" id="q2d" value=4><label for="q2d">D. 25 Years</label></p>
+		
+		<br>
+		<p>3.Which sport uses a net, a racket, and a shuttlecock?</p><br>
+			<p><input type="radio" name="q3" id="q3a" value=1><label for="q3a">A. Table Tennis</label></p>
+			<p><input type="radio" name="q3" id="q3b" value=2><label for="q3b">B. Sqaush</label></p>
+			<p><input type="radio" name="q3" id="q3c" value=3><label for="q3c">C. Tennis</label></p>
+			<p><input type="radio" name="q3" id="q3d" value=4><label for="q3d">D. Badminton</label></p>
+		
+        <br>		
+		<p>4.Which country won last FIFA World Cup(2018)?</p><br>
+			<p><input type="radio" name="q4" id="q4a" value=1><label for="q4a">A. France</label></p>
+			<p><input type="radio" name="q4" id="q4b" value=2><label for="q4b">B. Croatia</label></p>
+			<p><input type="radio" name="q4" id="q4c" value=3><label for="q4c">C. Belgium</label></p>
+			<p><input type="radio" name="q4" id="q4d" value=4><label for="q4d">D. England</label></p>
+		
+        <br>		
+		<p>5.Where were the first Summer Olympics held?</p><br>
+			<p><input type="radio" name="q5" id="q5a" value=1><label for = "q5a">A. China</label></p>
+			<p><input type="radio" name="q5" id="q5b" value=2><label for = "q5b">B. Greece</label></p>
+			<p><input type="radio" name="q5" id="q5c" value=3><label for = "q5c">C. Norway</label></p>
+			<p><input type="radio" name="q5" id="q5d" value=4><label for = "q5d">D. United States</label></p>
+		
+        <br>		
+		<p>6.Who is the current sri lanka odi captain?</p><br>
+			<p><input type="radio" name="q6" id="q6a" value=1><label for = "q6a">A. Dimuth Karunaratne</label></p>
+			<p><input type="radio" name="q6" id="q6b" value=2><label for = "q6b">B. Angelo Mathews</label></p>
+			<p><input type="radio" name="q6" id="q6c" value=3><label for = "q6c">C. Kusal Perera</label></p>
+			<p><input type="radio" name="q6" id="q6d" value=4><label for = "q6d">D. Dinesh Chandimal</label></p>
+		
+        <br>		
+		<p>7.Which Sri Lankan won the Player of the Series award in the 1996 ICC World Cup?</p><br>
+			<p><input type="radio" name="q7" id="q7a" value=1><label for = "q7a">A. Aravinda de Silva</label></p>
+			<p><input type="radio" name="q7" id="q7b" value=2><label for = "q7b">B. Romesh Kaluwitharana</label></p>
+			<p><input type="radio" name="q7" id="q7c" value=3><label for = "q7c">C. Sanath Jayasuriya</label></p>
+			<p><input type="radio" name="q7" id="q7d" value=4><label for = "q7d">D. Arjuna Ranatunga</label></p>
+		
+        <br>		
+		<p>8.Who won most ICC World Cups?</p><br>
+			<p><input type="radio" name="q8" id="q8a" value=1><label for = "q8a">A. South Africa</label></p>
+			<p><input type="radio" name="q8" id="q8b" value=2><label for = "q8b">B. England</label></p>
+			<p><input type="radio" name="q8" id="q8c" value=3><label for = "q8c">C. Australia</label></p>
+			<p><input type="radio" name="q8" id="q8d" value=4><label for = "q8d">D. India</label></p>
+		
+        <br>		
+		<p>9.For which team does Lasith Malinga play in IPL?</p><br>
+			<p><input type="radio" name="q9" id="q9a" value=1><label for = "q9a">A. Mumbai Indians</label></p>
+			<p><input type="radio" name="q9" id="q9b" value=2><label for = "q9b">B. Kolkata Knight Riders</label></p>
+			<p><input type="radio" name="q9" id="q9c" value=3><label for = "q9c">C. Chennai Super Kings</label></p>
+			<p><input type="radio" name="q9" id="q9d" value=4><label for = "q9d">D. Rajasthan Royals</label></p>
+		
+        <br>		
+		<p>10. Which year did Sri Lanka win the T20 World Cup?</p><br>
+			<p><input type="radio" name="q10" id="q10a" value=1><label for = "q10a">A.2011</label></p>
+			<p><input type="radio" name="q10" id="q10b" value=2><label for = "q10b">B.2015</label></p>
+			<p><input type="radio" name="q10" id="q10c" value=3><label for = "q10c">C.2009</label></p>
+			<p><input type="radio" name="q10" id="q10d" value=4><label for = "q10d">D.2014</label></p>
+			
+			<br>
+			<div>Seconds: <span id="time"></span></div>
+			<input type="button" value="Done" class="sumbitBtn" onclick="endQuiz(); stop();">
+			
+			
+	</form>
+	</div>
+	
+	<div id="endDisplay"></div>
+	<!-- Footer -->
+	<br><br><br>
+	<footer>
+	<br><br>
+	<img src="pictures/arrow.png" alt="arrow" width="25" height="25"><a href="#top">Back To The Top</a>
+	<div class="social">
+	<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+	<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+	<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+	<a href="https://lk.linkedin.com"><i class="fa fa-linkedin"></i></a>
+	
+	<p class="copyright">CK SPORTS ©️ 2021</p>
+    </div>
+	<div class ="pageEditor"><a href="Rukshan.html"  id="PageEditor" style="text-decoration:none;color : Green" >Page Editor</a></div>
+	
+	</footer>
+	</div>
+	
+			
+	
+<script src="QuizJs.js"></script>	
+</body>
+</html>
